@@ -159,3 +159,7 @@ test/torturethread
 docs/output
 SDL.tag
 doxygen_warn.txt
+
+# for zig builds
+zig-cache/
+zig-out/
