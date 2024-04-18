@@ -32,7 +32,7 @@ pub fn build(b: *std.Build) !void {
         },
     }
 
-    lib.installHeadersDirectory(b.path("include"), "SDL3", .{});
+    lib.installHeadersDirectory(b.path("include"), ".", .{});
     b.installArtifact(lib);
 }
 
